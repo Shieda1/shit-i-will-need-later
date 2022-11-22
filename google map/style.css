@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* map */
+
+#map {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #5969F6;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  #map .title {
+    text-align: center;
+  }
+  
+  #map .title h1{
+    -webkit-font-size: clamp(2rem, 4vw, 3rem);
+      -moz-font-size: clamp(2rem, 4vw, 3rem);
+      -ms-font-size: clamp(2rem, 4vw, 3rem);
+      -o-font-size: clamp(2rem, 4vw, 3rem);
+      font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 80px;
+    color: #fff;
+  }
+  
+  #map iframe {
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  /* end map */

@@ -1,0 +1,62 @@
+/* Back to Top Button with HTML, CSS and JavaScript */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+  color: #333;
+}
+.container {
+  padding: 20px 150px;
+}
+h1 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 26px;
+}
+hr {
+	margin: 40px 0;
+}
+p {
+  margin-bottom: 30px;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+/* progress */
+
+.scrollTop {
+  position: fixed;
+  bottom: 800px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background: #000 url('./pictures/up.png');
+  border-radius: 50%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+
+.scrollTop.active {
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* end progress */

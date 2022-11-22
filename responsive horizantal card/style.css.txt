@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 20px;
+}
+
+.card img {
+  display: block;
+  margin-right: 50px;
+  -webkit-width: clamp(230px, 45vw, 500px);
+  -moz-width: clamp(230px, 45vw, 500px);
+  -ms-width: clamp(230px, 45vw, 500px);
+  -o-width: clamp(230px, 45vw, 500px);
+  width: clamp(230px, 45vw, 500px);
+  transition: .5s ease;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card img:hover { 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card p {
+    -webkit-width: clamp(300px, 65vw, 500px);
+    -moz-width: clamp(300px, 65vw, 500px);
+    -ms-width: clamp(300px, 65vw, 500px);
+    -o-width: clamp(300px, 65vw, 500px);
+    width: clamp(300px, 65vw, 500px);
+    text-align: center;
+    -webkit-font-size: clamp(.9rem, 3vw, 2rem);
+    -moz-font-size: clamp(.9rem, 3vw, 2rem);
+    -ms-font-size: clamp(.9rem, 3vw, 2rem);
+    -o-font-size: clamp(.9rem, 3vw, 2rem);
+    font-size: clamp(.9rem, 3vw, 2rem);
+    opacity: .8;
+    line-height: 3rem;
+}

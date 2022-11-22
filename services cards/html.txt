@@ -1,0 +1,45 @@
+<section id="services">
+    <div class="title">
+      <h1>ألخدمات</h1>
+      <p>نحن نوفر لعملائنا مواقع ألكترونية كاملة من حيث ألتصميم وألبرمجة 
+        <br>وحل أي مشاكل مستقبلية تحصل للموقع</p>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+        <a class="card" href="#">
+          <span class="card-header" style="background-image: url(./pictures/ux\ ui.jpg);">
+            <span class="card-title">
+              <h3>UX/UI Design</h3>
+            </span>
+          </span>
+          <span class="card-summary">
+            ألبحث عن فئة عملائك وتصميم ألموقع طبقا لأحتياجاتهم, أعمارهم وجنسهم
+          </span>
+        </a>
+    
+        <a class="card" href="#">
+          <span class="card-header" style="background-image: url(./pictures/Responsive.jpg);">
+            <span class="card-title">
+              <h3>Responsive Design</h3>
+            </span>
+          </span>
+          <span class="card-summary">
+            تصميم وبرمجة ألموقع لكي يعمل على جميع ألاجهزة سواء كانت هواتف, لابتوب أو حواسيب
+          </span>
+        </a>
+        
+        <a class="card" href="#">
+          <span class="card-header" style="background-image: url(./pictures/html-css-javascript.jpg)">
+            <span class="card-title">
+              <h3>HTML, CSS and JavaScript</h3>
+            </span>
+          </span>
+          <span class="card-summary">
+            برمجة ألموقع بلغات برمجة ألويب بعد أكتمال التصميم
+          </span>
+        </a>
+    
+      </div>
+    </div>
+  </section>

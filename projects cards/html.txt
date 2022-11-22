@@ -1,0 +1,31 @@
+<div class="card">
+    <h1>مهندس</h1>
+    <div class="content">
+      <p>موقع ألكتروني للمهندس تيسلا حيث يعرض خدماته ومشاريعه و مواقعه  للتواصل ألاجتماعي</p><a href="">Learn more</a>
+    </div>
+    <div class="img"><img src="./pictures/Tesla.jpg" alt=""></div>
+  </div>
+
+  <div class="card">
+    <h1>مطعم</h1>
+    <div class="content">
+      <p>موقع متجر للقهوة يعرض أنواع ووصفات ألقهوة التي يحضرونها مع الأسعار وكذلك ألموقع ألجغرافي للمتجر</p><a href="">Learn more</a>
+    </div>
+    <div class="img"><img src="./pictures/مطعم ألباشا.jpg" alt=""></div>
+  </div>
+
+  <div class="card">
+    <h1>قهوة</h1>
+    <div class="content">
+      <p>موقع ألطباخة منى يعرض وصفات ألكعك التي تحضرها مع ألاسعار وكذلك مواقها للتواصل ألاجتماعي </p><a href="">Learn more</a>
+    </div>
+    <div class="img"><img src="./pictures/coffee.jpg" alt=""></div>
+  </div>
+
+  <div class="card">
+    <h1>طباخة</h1>
+    <div class="content">
+      <p>موقع مطعم ألباشا لتجهيز ألمشويات للأعراس وألمناسابات حيث يعرض وجباتهم مع ألاسعار وكذلك موقعهم ألجغرافي</p><a href="">Learn more</a>
+    </div>
+    <div class="img"><img src="./pictures/منى.jpg" alt=""></div>
+  </div>

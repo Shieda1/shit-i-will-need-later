@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- img-slider -->
+  <section id="img-slider">
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="./pictures/coffee.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./pictures/Tesla.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./pictures/مطعم ألباشا.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./pictures/منى.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+  </div>
+  </section>
+<!-- end img-slider -->
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#projects .container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+  
+.title h1 {
+    -webkit-font-size: (2rem, 4vw, 3rem);
+    -moz-font-size: (2rem, 4vw, 3rem);
+    -ms-font-size: (2rem, 4vw, 3rem);
+    -o-font-size: (2rem, 4vw, 3rem);
+    font-size: (2rem, 4vw, 3rem);
+    margin-bottom: 50px;
+}
+
+#projects .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+#projects .card {
+    width: 30%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+}
+
+#projects .card-header img{
+    width: 100%;
+}
+
+#projects .card-body {
+    padding: 30px 20px;
+    opacity: .8;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+}
+
+@media screen and (max-width:1000px) {
+    #projects .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:620px) {
+    #projects .container {
+        width: 100%;
+    }
+
+    #projects .card {
+        width: 80%;
+    }
+}
